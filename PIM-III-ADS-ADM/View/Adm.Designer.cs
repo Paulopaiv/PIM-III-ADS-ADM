@@ -137,6 +137,10 @@
             // 
             // btnRemover
             // 
+            btnRemover.BackColor = Color.White;
+            btnRemover.Cursor = Cursors.Hand;
+            btnRemover.FlatAppearance.BorderSize = 0;
+            btnRemover.FlatStyle = FlatStyle.Flat;
             btnRemover.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnRemover.ForeColor = Color.Black;
             btnRemover.Location = new Point(29, 292);
@@ -144,11 +148,15 @@
             btnRemover.Size = new Size(90, 35);
             btnRemover.TabIndex = 6;
             btnRemover.Text = "Remover";
-            btnRemover.UseVisualStyleBackColor = true;
+            btnRemover.UseVisualStyleBackColor = false;
             btnRemover.Click += BtnRemover_Click;
             // 
             // btnSalvar
             // 
+            btnSalvar.BackColor = Color.White;
+            btnSalvar.Cursor = Cursors.Hand;
+            btnSalvar.FlatAppearance.BorderSize = 0;
+            btnSalvar.FlatStyle = FlatStyle.Flat;
             btnSalvar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnSalvar.ForeColor = Color.Black;
             btnSalvar.Location = new Point(321, 292);
@@ -156,7 +164,7 @@
             btnSalvar.Size = new Size(90, 35);
             btnSalvar.TabIndex = 7;
             btnSalvar.Text = "Salvar";
-            btnSalvar.UseVisualStyleBackColor = true;
+            btnSalvar.UseVisualStyleBackColor = false;
             btnSalvar.Click += BtnSalvar_Click;
             // 
             // lblCep
@@ -231,13 +239,17 @@
             // 
             // btnBuscar
             // 
+            btnBuscar.BackColor = Color.White;
+            btnBuscar.Cursor = Cursors.Hand;
+            btnBuscar.FlatAppearance.BorderSize = 0;
+            btnBuscar.FlatStyle = FlatStyle.Flat;
             btnBuscar.ForeColor = Color.Black;
             btnBuscar.Location = new Point(321, 118);
             btnBuscar.Name = "btnBuscar";
             btnBuscar.Size = new Size(90, 35);
             btnBuscar.TabIndex = 2;
             btnBuscar.Text = "Buscar";
-            btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.UseVisualStyleBackColor = false;
             btnBuscar.Click += BtnBuscar_Click;
             // 
             // gbEditar
@@ -293,12 +305,15 @@
             // btnRelatorios
             // 
             btnRelatorios.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btnRelatorios.BackColor = Color.Black;
+            btnRelatorios.BackColor = Color.White;
+            btnRelatorios.Cursor = Cursors.Hand;
+            btnRelatorios.FlatAppearance.BorderSize = 0;
+            btnRelatorios.FlatStyle = FlatStyle.Flat;
             btnRelatorios.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnRelatorios.ForeColor = SystemColors.ControlLightLight;
-            btnRelatorios.Location = new Point(914, 771);
+            btnRelatorios.ForeColor = Color.Black;
+            btnRelatorios.Location = new Point(850, 771);
             btnRelatorios.Name = "btnRelatorios";
-            btnRelatorios.Size = new Size(160, 57);
+            btnRelatorios.Size = new Size(288, 57);
             btnRelatorios.TabIndex = 0;
             btnRelatorios.Text = "Relatorios";
             btnRelatorios.UseVisualStyleBackColor = false;
@@ -317,9 +332,12 @@
             // btnMeia
             // 
             btnMeia.Anchor = AnchorStyles.Right;
-            btnMeia.BackColor = Color.Black;
+            btnMeia.BackColor = Color.White;
+            btnMeia.Cursor = Cursors.Hand;
+            btnMeia.FlatAppearance.BorderSize = 0;
+            btnMeia.FlatStyle = FlatStyle.Flat;
             btnMeia.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnMeia.ForeColor = SystemColors.ControlLightLight;
+            btnMeia.ForeColor = Color.Black;
             btnMeia.Location = new Point(914, 634);
             btnMeia.Name = "btnMeia";
             btnMeia.Size = new Size(160, 57);
@@ -331,9 +349,12 @@
             // btnInteiro
             // 
             btnInteiro.Anchor = AnchorStyles.Right;
-            btnInteiro.BackColor = Color.Black;
+            btnInteiro.BackColor = Color.White;
+            btnInteiro.Cursor = Cursors.Hand;
+            btnInteiro.FlatAppearance.BorderSize = 0;
+            btnInteiro.FlatStyle = FlatStyle.Flat;
             btnInteiro.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnInteiro.ForeColor = SystemColors.ControlLightLight;
+            btnInteiro.ForeColor = Color.Black;
             btnInteiro.Location = new Point(914, 571);
             btnInteiro.Name = "btnInteiro";
             btnInteiro.Size = new Size(160, 57);
@@ -345,9 +366,12 @@
             // btnIsento
             // 
             btnIsento.Anchor = AnchorStyles.Right;
-            btnIsento.BackColor = Color.Black;
+            btnIsento.BackColor = Color.White;
+            btnIsento.Cursor = Cursors.Hand;
+            btnIsento.FlatAppearance.BorderSize = 0;
+            btnIsento.FlatStyle = FlatStyle.Flat;
             btnIsento.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnIsento.ForeColor = SystemColors.ControlLightLight;
+            btnIsento.ForeColor = Color.Black;
             btnIsento.Location = new Point(914, 697);
             btnIsento.Name = "btnIsento";
             btnIsento.Size = new Size(160, 57);

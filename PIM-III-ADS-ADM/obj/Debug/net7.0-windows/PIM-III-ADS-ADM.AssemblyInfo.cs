@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PIM-III-ADS-ADM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc3f2048b2b45869953fba73e9e9bfafc320f637")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14b523c6c34d82aa3c48e0ee708cc62ebe7ddf82")]
 [assembly: System.Reflection.AssemblyProductAttribute("PIM-III-ADS-ADM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PIM-III-ADS-ADM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,7 @@
 ﻿using PIM_III_ADS_ADM.Controller;
 using PIM_III_ADS_ADM.Service;
 using PIM_III_ADS_ADM.Utils;
-using PPIM_III_ADS_ADM.Service;
+using PIM_III_ADS_ADM.Service;
 
 namespace PIM_III_ADS_ADM.Model
 {
@@ -69,20 +69,6 @@ namespace PIM_III_ADS_ADM.Model
             }
         }
 
-        //internal void BuscarPessoa(PessoaController pessoaController)
-        //{
-        //    pessoaController = pessoaServico.BuscarPessoaNomeECodigo(pessoaController);
-
-        //    if (pessoaController != null && pessoaController.Nome != null && pessoaController.Codigo != null)
-        //    {
-        //        this.mensagem = "Pessoa encontrada com sucesso!";
-        //    }
-        //    else
-        //    {
-        //        this.mensagem = "Pessoa não encontrada.";
-        //    }
-        //}
-
         internal void BuscarPessoa(PessoaController pessoaController)
         {
             pessoaController = pessoaServico.BuscarPessoaPorNomeEEmail(pessoaController);
@@ -101,6 +87,31 @@ namespace PIM_III_ADS_ADM.Model
         {
             IEnumerable<PessoaController> todasPessoas = pessoaServico.BuscarTodasPessoas();
             return todasPessoas.ToList();
+        }
+
+        public void ConfigurarColunas(DataGridView dataGridView, List<PessoaController> todasPessoas)
+        {
+            dataGridView.DataSource = todasPessoas;
+
+            dataGridView.Columns["codigo"].HeaderText = "Código";
+            dataGridView.Columns["codigo"].DisplayIndex = 0;
+
+            dataGridView.Columns["nome"].HeaderText = "Nome";
+            dataGridView.Columns["nome"].DisplayIndex = 1;
+
+            dataGridView.Columns["idadeDb"].HeaderText = "Idade";
+            dataGridView.Columns["idadeDb"].DisplayIndex = 2;
+
+            dataGridView.Columns["email"].HeaderText = "E-mail";
+            dataGridView.Columns["email"].DisplayIndex = 3;
+
+            dataGridView.Columns["cep"].HeaderText = "CEP";
+            dataGridView.Columns["cep"].DisplayIndex = 4;
+
+            // Oculta a coluna que deseja remover
+            //dataGridView.Columns["Validacao"].Visible = false;
+            dataGridView.Columns["idadeDb"].Visible = false;
+           
         }
 
         public string Mensagem

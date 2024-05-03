@@ -1,10 +1,10 @@
-﻿
-
-using Dapper;
+﻿using Dapper;
 using Npgsql;
 using PIM_III_ADS_ADM.Controller;
 using PIM_III_ADS_ADM.Utils;
-using PPIM_III_ADS_ADM.Service;
+using System;
+using System.Collections.Generic;
+using System.Data;
 
 namespace PIM_III_ADS_ADM.Service
 {
@@ -12,149 +12,94 @@ namespace PIM_III_ADS_ADM.Service
     {
         private readonly Dbconexao dbconexao;
         private readonly EnviaEmail enviaEmail;
-        private Dbconexao dbconexao1;
-        private EnviaEmail enviaEmail1;
+        private NpgsqlConnection conexao;
 
         public PessoaServico(Dbconexao conexao, EnviaEmail enviaEmail)
         {
             this.dbconexao = conexao;
             this.enviaEmail = enviaEmail;
-        }
 
+            // Abra a conexão do banco de dados assim que o serviço for instanciado
+            this.conexao = dbconexao.GetConnection() as NpgsqlConnection;
+            if (this.conexao.State == ConnectionState.Closed)
+                this.conexao.Open();
+        }
 
         public void Inserir(PessoaController pessoa)
         {
-            using (NpgsqlConnection conexao = dbconexao.GetConnection() as NpgsqlConnection)
+            if (string.IsNullOrEmpty(pessoa.Codigo))
             {
-                conexao.Execute(@"INSERT INTO visitante (NOME, IDADE, EMAIL, CEP, DATA, Codigo) 
-                    VALUES (@Nome, @IdadeDb, @Email, @Cep, @Data, @Codigo)",
-                    new
-                    {
-                        pessoa.IdadeDb,
-                        pessoa.Nome,
-                        pessoa.Email,
-                        pessoa.Cep,
-                        pessoa.Codigo,
-                        Data = DateTime.Today
-
-                    });
-
-                enviaEmail.EnviarEmail(pessoa.Email, pessoa.Codigo);
+                pessoa.Codigo = pessoa.GerarCodigo(pessoa.Nome);
             }
+            // Use a conexão já aberta
+            conexao.Execute(@"INSERT INTO visitante (NOME, IDADE, EMAIL, CEP, DATA, Codigo) 
+                VALUES (@Nome, @IdadeDb, @Email, @Cep, @Data, @Codigo)",
+                new
+                {
+                    pessoa.IdadeDb,
+                    pessoa.Nome,
+                    pessoa.Email,
+                    pessoa.Cep,
+                    pessoa.Codigo,
+                    Data = DateTime.Today
+
+                });
+
+            // enviaEmail.EnviarEmail(pessoa.Email, pessoa.Codigo);
         }
 
         public void Atualizar(PessoaController pessoa)
         {
-            using (NpgsqlConnection conexao = dbconexao.GetConnection() as NpgsqlConnection)
-            {
-                conexao.Execute(@"UPDATE visitante SET nome = @Nome, idade = @Idade, email = @Email, cep = @Cep, data = @Data WHERE codigo = @Codigo",
-                    new
-                    {
-                        pessoa.Nome,
-                        pessoa.IdadeDb,
-                        pessoa.Email,
-                        pessoa.Cep,
-                        Data = DateTime.Today,
-                        Codigo = pessoa.Codigo
-                    });
-            }
+            // Use a conexão já aberta
+            conexao.Execute(@"UPDATE visitante SET nome = @Nome, idade = @Idade, email = @Email, cep = @Cep, data = @Data WHERE codigo = @Codigo",
+                new
+                {
+                    pessoa.Nome,
+                    pessoa.IdadeDb,
+                    pessoa.Email,
+                    pessoa.Cep,
+                    Data = DateTime.Today,
+                    Codigo = pessoa.Codigo
+                });
         }
 
         public void Deletar(PessoaController pessoa)
         {
-            using (NpgsqlConnection conexao = dbconexao.GetConnection() as NpgsqlConnection)
-            {
-                conexao.Execute("DELETE FROM visitante WHERE Codigo  = @Codigo", new { pessoa.Codigo });
-            }
+            // Use a conexão já aberta
+            conexao.Execute("DELETE FROM visitante WHERE Codigo  = @Codigo", new { pessoa.Codigo });
         }
 
         public IEnumerable<PessoaController> BuscarTodasPessoas()
         {
-            using (NpgsqlConnection conexao = dbconexao.GetConnection() as NpgsqlConnection)
-            {
-                // Consulta SQL modificada para incluir o campo Codigo
-                return conexao.Query<PessoaController>("SELECT codigo as Codigo, nome as Nome, idade as Idade, email as Email, cep as Cep, data as Data FROM visitante");
-            }
+            // Use a conexão já aberta
+            return conexao.Query<PessoaController>("SELECT codigo as Codigo, nome as Nome, idade as Idade, email as Email, cep as Cep, data as Data FROM visitante");
         }
 
         public PessoaController BuscarPessoaPorEmail(string email)
         {
-            using (NpgsqlConnection conexao = dbconexao.GetConnection() as NpgsqlConnection)
-            {
-                return conexao.QueryFirstOrDefault<PessoaController>("SELECT * FROM visitante WHERE email = @Email", new { Email = email });
-            }
-        }
-
-        public PessoaController BuscarPorCodigo(PessoaController pessoa)
-        {
-            using (var conexao = new Dbconexao())
-            {
-                var connection = conexao.GetConnection();
-
-                var resultado = connection.QueryFirstOrDefault(
-                   "SELECT * FROM visitante WHERE Codigo = @codigo ",
-                    new { Codigo = pessoa.Codigo });
-
-                if (resultado == null)
-                {
-                    return null;
-                }
-                pessoa.Codigo = resultado.codigo;
-                pessoa.Nome = resultado.nome;
-                return pessoa;
-            }
-        }
-        public PessoaController BuscarPessoaNomeECodigo(PessoaController pessoa)
-        {
-            using (var conexao = new Dbconexao())
-            {
-                var connection = conexao.GetConnection();
-
-                var resultado = connection.QueryFirstOrDefault(
-                    "SELECT nome, idade, email, cep, codigo FROM public.visitante WHERE nome = @nome AND codigo = @email",
-                    new { pessoa.Nome, pessoa.Email });
-
-                if (resultado != null)
-                {
-                   
-                    pessoa.Nome = resultado.nome;
-                    pessoa.IdadeDb = resultado.idade;
-                    pessoa.Email = resultado.email;
-                    pessoa.Cep = resultado.cep;
-                    pessoa.Codigo = resultado.codigo;
-
-                    // Retornando a própria instância de pessoa, que agora está atualizada com os dados encontrados
-                    return pessoa;
-                }
-                return null;
-            }
+            // Use a conexão já aberta
+            return conexao.QueryFirstOrDefault<PessoaController>("SELECT * FROM visitante WHERE email = @Email", new { Email = email });
         }
 
         public PessoaController BuscarPessoaPorNomeEEmail(PessoaController pessoa)
         {
-            using (var conexao = new Dbconexao())
+            // Use a conexão já aberta
+            var resultado = conexao.QueryFirstOrDefault(
+                 "SELECT nome, idade, email, cep, codigo FROM public.visitante WHERE nome = @Nome AND email = @Email",
+                new { pessoa.Nome, pessoa.Email });
+
+            if (resultado != null)
             {
-                var connection = conexao.GetConnection();
+                pessoa.Nome = resultado.nome;
+                pessoa.IdadeDb = resultado.idade;
+                pessoa.Email = resultado.email;
+                pessoa.Cep = resultado.cep;
+                pessoa.Codigo = resultado.codigo;
 
-                var resultado = connection.QueryFirstOrDefault(
-                     "SELECT nome, idade, email, cep, codigo FROM public.visitante WHERE nome = @Nome AND email = @Email",
-                    new { pessoa.Nome, pessoa.Email });
-
-                if (resultado != null)
-                {
-                    pessoa.Nome = resultado.nome;
-                    pessoa.IdadeDb = resultado.idade;
-                    pessoa.Email = resultado.email;
-                    pessoa.Cep = resultado.cep;
-                    pessoa.Codigo = resultado.codigo;
-
-                    return pessoa;
-                }
-
-                return null;
+                return pessoa;
             }
+
+            return null;
         }
-
-
     }
 }

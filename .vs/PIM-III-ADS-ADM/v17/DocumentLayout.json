@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\model\\pessoamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\model\\pessoamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\controller\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\controller\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\service\\pessoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\service\\pessoaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\controller\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\controller\\pagamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\model\\pessoamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\model\\pessoamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|d:\\paulo \u0026 rebeca\\git-hub-paulo\\pim-iii-ads-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\service\\dbconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\service\\dbconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,66 +62,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PessoaService.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\PessoaService.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Service\\PessoaService.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\PessoaService.cs",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\Service\\PessoaService.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAiwHAAAAAQAAAA",
+              "DocumentIndex": 4,
+              "Title": "PessoaModel.cs",
+              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Model\\PessoaModel.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Model\\PessoaModel.cs",
+              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Model\\PessoaModel.cs",
+              "RelativeToolTip": "PIM-III-ADS-ADM\\Model\\PessoaModel.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAkwIEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:59:04.306Z",
+              "WhenOpened": "2024-05-03T14:50:56.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Adm.cs",
               "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
               "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\View\\Adm.cs",
               "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
               "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Adm.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAIAwwD8AAAAMAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAIAwwC4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:54:55.358Z",
+              "WhenOpened": "2024-05-03T14:12:27.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Adm.cs [Projeto]",
               "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
               "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\View\\Adm.cs",
               "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs [Projeto]",
               "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Adm.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:51:03.956Z",
+              "WhenOpened": "2024-05-03T14:12:25.504Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PessoaModel.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Model\\PessoaModel.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Model\\PessoaModel.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Model\\PessoaModel.cs",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\Model\\PessoaModel.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAiwFsAAAAQAAAA",
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Controller\\PessoaController.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Controller\\PessoaController.cs",
+              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Controller\\PessoaController.cs",
+              "RelativeToolTip": "PIM-III-ADS-ADM\\Controller\\PessoaController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAwwCUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:50:39.114Z",
+              "WhenOpened": "2024-05-03T14:11:27.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Program.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Program.cs",
-              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Program.cs",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "PagamentoController.cs",
+              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Controller\\PagamentoController.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Controller\\PagamentoController.cs",
+              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Controller\\PagamentoController.cs",
+              "RelativeToolTip": "PIM-III-ADS-ADM\\Controller\\PagamentoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T19:48:38.688Z",
+              "WhenOpened": "2024-05-03T14:11:21.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PessoaService.cs",
+              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\PessoaService.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Service\\PessoaService.cs",
+              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\PessoaService.cs",
+              "RelativeToolTip": "PIM-III-ADS-ADM\\Service\\PessoaService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T14:00:45.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dbconexao.cs",
+              "DocumentMoniker": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\Dbconexao.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Service\\Dbconexao.cs",
+              "ToolTip": "D:\\Paulo \u0026 Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\Dbconexao.cs",
+              "RelativeToolTip": "PIM-III-ADS-ADM\\Service\\Dbconexao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T13:54:19.307Z",
               "EditorCaption": ""
             }
           ]

@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Linq;
 using PIM_III_ADS_ADM.Controller;
 using PIM_III_ADS_ADM.Service;
-using PPIM_III_ADS_ADM.Service;
+using PIM_III_ADS_ADM.Service;
 using System.Net;
 using System.Text.RegularExpressions;
 

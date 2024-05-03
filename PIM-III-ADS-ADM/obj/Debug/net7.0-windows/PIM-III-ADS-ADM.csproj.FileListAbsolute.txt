@@ -21,3 +21,7 @@ D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\
 D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.pdb
 D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.genruntimeconfig.cache
 D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\ref\PIM-III-ADS-ADM.dll
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.View.Pagamento.resources
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.View.Vendas.resources
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.sourcelink.json
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\QRCoder.dll

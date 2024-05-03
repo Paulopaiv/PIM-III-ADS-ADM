@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "PnZiPigZEaX2fv1RPZUyx99lIrCfEO3Rs5N4L3rMAfUJP/Op3waD/ca1JVRXaKmtGScspBb1+aa7P8WWq6Mh8g==",
+  "dgSpecHash": "QWwNi9k0ERH59/J0W2FksID+QFPK3rSTWuBgclYtscOlzv2EBs0NF9tSZay75D5oDZ/armvYgHeMJzqhlj8NDw==",
   "success": true,
   "projectFilePath": "D:\\Paulo & Rebeca\\GIT-HUB-PAULO\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\qrcoder\\1.5.1\\qrcoder.1.5.1.nupkg.sha512",
+    "C:\\Users\\Paulo & Rebeca\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

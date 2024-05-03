@@ -51,9 +51,9 @@
             lblNomeBuscar = new Label();
             btnRelatorios = new Button();
             dgvPessoa = new DataGridView();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            btnMeia = new Button();
+            btnInteiro = new Button();
+            btnIsento = new Button();
             gbVisitante.SuspendLayout();
             gbEditar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvPessoa).BeginInit();
@@ -314,44 +314,47 @@
             dgvPessoa.Size = new Size(761, 816);
             dgvPessoa.TabIndex = 9;
             // 
-            // button1
+            // btnMeia
             // 
-            button1.Anchor = AnchorStyles.Right;
-            button1.BackColor = Color.Black;
-            button1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(914, 634);
-            button1.Name = "button1";
-            button1.Size = new Size(160, 57);
-            button1.TabIndex = 10;
-            button1.Text = "Relatorios";
-            button1.UseVisualStyleBackColor = false;
+            btnMeia.Anchor = AnchorStyles.Right;
+            btnMeia.BackColor = Color.Black;
+            btnMeia.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnMeia.ForeColor = SystemColors.ControlLightLight;
+            btnMeia.Location = new Point(914, 634);
+            btnMeia.Name = "btnMeia";
+            btnMeia.Size = new Size(160, 57);
+            btnMeia.TabIndex = 10;
+            btnMeia.Text = "Meia";
+            btnMeia.UseVisualStyleBackColor = false;
+            btnMeia.Click += btnMeia_Click;
             // 
-            // button2
+            // btnInteiro
             // 
-            button2.Anchor = AnchorStyles.Right;
-            button2.BackColor = Color.Black;
-            button2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button2.ForeColor = SystemColors.ControlLightLight;
-            button2.Location = new Point(914, 571);
-            button2.Name = "button2";
-            button2.Size = new Size(160, 57);
-            button2.TabIndex = 11;
-            button2.Text = "Relatorios";
-            button2.UseVisualStyleBackColor = false;
+            btnInteiro.Anchor = AnchorStyles.Right;
+            btnInteiro.BackColor = Color.Black;
+            btnInteiro.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnInteiro.ForeColor = SystemColors.ControlLightLight;
+            btnInteiro.Location = new Point(914, 571);
+            btnInteiro.Name = "btnInteiro";
+            btnInteiro.Size = new Size(160, 57);
+            btnInteiro.TabIndex = 11;
+            btnInteiro.Text = "Inteira";
+            btnInteiro.UseVisualStyleBackColor = false;
+            btnInteiro.Click += btnInteiro_Click;
             // 
-            // button3
+            // btnIsento
             // 
-            button3.Anchor = AnchorStyles.Right;
-            button3.BackColor = Color.Black;
-            button3.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            button3.ForeColor = SystemColors.ControlLightLight;
-            button3.Location = new Point(914, 697);
-            button3.Name = "button3";
-            button3.Size = new Size(160, 57);
-            button3.TabIndex = 12;
-            button3.Text = "Relatorios";
-            button3.UseVisualStyleBackColor = false;
+            btnIsento.Anchor = AnchorStyles.Right;
+            btnIsento.BackColor = Color.Black;
+            btnIsento.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnIsento.ForeColor = SystemColors.ControlLightLight;
+            btnIsento.Location = new Point(914, 697);
+            btnIsento.Name = "btnIsento";
+            btnIsento.Size = new Size(160, 57);
+            btnIsento.TabIndex = 12;
+            btnIsento.Text = "Isento";
+            btnIsento.UseVisualStyleBackColor = false;
+            btnIsento.Click += btnIsento_Click;
             // 
             // Adm
             // 
@@ -359,9 +362,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(1221, 840);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnIsento);
+            Controls.Add(btnInteiro);
+            Controls.Add(btnMeia);
             Controls.Add(dgvPessoa);
             Controls.Add(btnRelatorios);
             Controls.Add(gbEditar);
@@ -401,8 +404,8 @@
         private Button btnRelatorios;
         private TextBox txbCep;
         private DataGridView dgvPessoa;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button btnMeia;
+        private Button btnInteiro;
+        private Button btnIsento;
     }
 }

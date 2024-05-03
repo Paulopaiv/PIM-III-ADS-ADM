@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Mail;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
+using PIM_III_ADS_ADM.Service;
 
 namespace PIM_III_ADS_ADM.Utils
 {
     public class EnviaEmail
     {
-        public void EnviarEmail(string destinatario, string codigo)
+        public void EnviarEmail(string nome, string destinatario, string codigo, string formaDePagamento, string valorIngresso)
         {
             MailMessage message = new MailMessage();
             try
@@ -19,11 +18,16 @@ namespace PIM_III_ADS_ADM.Utils
                 smtp.EnableSsl = true;
                 smtp.Timeout = 60 * 1000;
                 smtp.UseDefaultCredentials = false;
-                smtp.Credentials = new NetworkCredential("pim3ads@gmail.com", "q n a m n b c j e r x fa h r r"); 
+                smtp.Credentials = new NetworkCredential("pim3ads@gmail.com", "q n a m n b c j e r x fa h r r");
+
                 message.From = new MailAddress("pim3ads@gmail.com");
-                message.Body = $"Olá,\n\nObrigado por comprar seu ingresso para o museu!" +
-                                $"\n\nSeu código de visitante é: {codigo}" +
-                                $"\n\nTenha uma ótima visita!";
+
+                message.Body = message.Body = $"Olá, {nome}!\n\nObrigado por comprar seu ingresso para o museu!" +
+                                              $"\n\nSeu código de visitante é: {codigo}" +
+                                              $"\n\nForma de pagamento: {formaDePagamento}" +
+                                              $"\n\nValor do ingresso: R${valorIngresso}" +
+                                              $"\n\nTenha uma ótima visita!";
+
                 message.Subject = "Seu Código de Visitante";
                 message.IsBodyHtml = true;
                 message.Priority = MailPriority.Normal;
@@ -34,7 +38,7 @@ namespace PIM_III_ADS_ADM.Utils
             catch (Exception Erro)
             {
 
-                throw new Exception("Erro ao enviar e-mail: " + Erro.Message);
+                MessageBox.Show("Erro ao enviar e-mail!");
             }
         }
     }

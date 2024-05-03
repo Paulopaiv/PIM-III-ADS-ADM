@@ -1,8 +1,9 @@
 
 
+using PIM_III_ADS_ADM.Controller;
 using PIM_III_ADS_ADM.View;
 
-namespace PIM_III_ADS_2P17
+namespace PIM_III_ADS_ADM
 {
     internal static class Program
     {
@@ -15,7 +16,7 @@ namespace PIM_III_ADS_2P17
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Adm());           
+            Application.Run(new Adm(new PessoaController()));           
          
 
         }

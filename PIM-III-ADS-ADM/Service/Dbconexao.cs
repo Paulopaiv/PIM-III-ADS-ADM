@@ -2,55 +2,43 @@
 using System;
 using System.Data;
 
-namespace PPIM_III_ADS_ADM.Service
+namespace PIM_III_ADS_ADM.Service
 {
     public class Dbconexao : IDisposable
     {
+        private readonly string connectionString;
         private NpgsqlConnection connection;
 
         public Dbconexao()
         {
-            connection = new NpgsqlConnection("Server=localhost;Port=5432;Database=DB_Museu;User Id=postgres;Password=4852;");
+            connectionString = "Server=localhost;Port=5432;Database=DB_Museu;User Id=postgres;Password=4852;";
         }
 
-        public NpgsqlConnection GetConnection()
+        public IDbConnection GetConnection()
         {
-            if (connection.State != ConnectionState.Open)
+            if (connection == null)
             {
-                try
-                {
-                    connection.Open();
-                }
-                catch (Exception ex)
-                {
-                    // Lidar com a exceção ou relançá-la, conforme necessário
-                    throw new Exception("Erro ao abrir a conexão com o banco de dados.", ex);
-                }
+                connection = new NpgsqlConnection(connectionString);
+                connection.Open(); // Abre a conexão assim que for criada
+            }
+            else if (connection.State == ConnectionState.Closed)
+            {
+                connection.Open(); // Abre a conexão se estiver fechada
             }
 
             return connection;
         }
 
-
         public void Dispose()
         {
-            Dispose(true);
-            GC.SuppressFinalize(this);
-        }
-
-        protected virtual void Dispose(bool disposing)
-        {
-            if (disposing)
+            if (connection != null)
             {
-                if (connection != null)
+                if (connection.State != ConnectionState.Closed)
                 {
-                    if (connection.State != ConnectionState.Closed)
-                    {
-                        connection.Close();
-                    }
-                    connection.Dispose();
-                    connection = null;
+                    connection.Close(); // Fecha a conexão se estiver aberta
                 }
+                connection.Dispose();
+                connection = null;
             }
         }
     }

@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Adm));
             gbVisitante = new GroupBox();
             txbCep = new TextBox();
             txbData = new MaskedTextBox();
@@ -79,7 +82,7 @@
             gbVisitante.Controls.Add(lblNome);
             gbVisitante.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             gbVisitante.ForeColor = Color.White;
-            gbVisitante.Location = new Point(779, 6);
+            gbVisitante.Location = new Point(795, 6);
             gbVisitante.Name = "gbVisitante";
             gbVisitante.Size = new Size(430, 363);
             gbVisitante.TabIndex = 1;
@@ -140,6 +143,7 @@
             btnRemover.BackColor = Color.White;
             btnRemover.Cursor = Cursors.Hand;
             btnRemover.FlatAppearance.BorderSize = 0;
+            btnRemover.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
             btnRemover.FlatStyle = FlatStyle.Flat;
             btnRemover.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnRemover.ForeColor = Color.Black;
@@ -156,6 +160,7 @@
             btnSalvar.BackColor = Color.White;
             btnSalvar.Cursor = Cursors.Hand;
             btnSalvar.FlatAppearance.BorderSize = 0;
+            btnSalvar.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
             btnSalvar.FlatStyle = FlatStyle.Flat;
             btnSalvar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnSalvar.ForeColor = Color.Black;
@@ -242,6 +247,7 @@
             btnBuscar.BackColor = Color.White;
             btnBuscar.Cursor = Cursors.Hand;
             btnBuscar.FlatAppearance.BorderSize = 0;
+            btnBuscar.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
             btnBuscar.FlatStyle = FlatStyle.Flat;
             btnBuscar.ForeColor = Color.Black;
             btnBuscar.Location = new Point(321, 118);
@@ -263,7 +269,7 @@
             gbEditar.Controls.Add(btnBuscar);
             gbEditar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             gbEditar.ForeColor = Color.White;
-            gbEditar.Location = new Point(779, 383);
+            gbEditar.Location = new Point(795, 383);
             gbEditar.Name = "gbEditar";
             gbEditar.Size = new Size(430, 162);
             gbEditar.TabIndex = 8;
@@ -308,25 +314,45 @@
             btnRelatorios.BackColor = Color.White;
             btnRelatorios.Cursor = Cursors.Hand;
             btnRelatorios.FlatAppearance.BorderSize = 0;
+            btnRelatorios.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
             btnRelatorios.FlatStyle = FlatStyle.Flat;
             btnRelatorios.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnRelatorios.ForeColor = Color.Black;
-            btnRelatorios.Location = new Point(850, 771);
+            btnRelatorios.Location = new Point(866, 810);
             btnRelatorios.Name = "btnRelatorios";
             btnRelatorios.Size = new Size(288, 57);
             btnRelatorios.TabIndex = 0;
-            btnRelatorios.Text = "Relatorios";
+            btnRelatorios.Text = "Relátorios";
             btnRelatorios.UseVisualStyleBackColor = false;
             btnRelatorios.Click += BtnRelatorios_Click;
             // 
             // dgvPessoa
             // 
             dgvPessoa.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dgvPessoa.BackgroundColor = SystemColors.WindowText;
+            dgvPessoa.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.DodgerBlue;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = Color.LightSlateGray;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dgvPessoa.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvPessoa.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Window;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            dgvPessoa.DefaultCellStyle = dataGridViewCellStyle2;
+            dgvPessoa.GridColor = Color.WhiteSmoke;
             dgvPessoa.Location = new Point(12, 12);
             dgvPessoa.Name = "dgvPessoa";
             dgvPessoa.RowTemplate.Height = 25;
-            dgvPessoa.Size = new Size(761, 816);
+            dgvPessoa.Size = new Size(777, 855);
             dgvPessoa.TabIndex = 9;
             // 
             // btnMeia
@@ -335,10 +361,11 @@
             btnMeia.BackColor = Color.White;
             btnMeia.Cursor = Cursors.Hand;
             btnMeia.FlatAppearance.BorderSize = 0;
+            btnMeia.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
             btnMeia.FlatStyle = FlatStyle.Flat;
-            btnMeia.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnMeia.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnMeia.ForeColor = Color.Black;
-            btnMeia.Location = new Point(914, 634);
+            btnMeia.Location = new Point(930, 653);
             btnMeia.Name = "btnMeia";
             btnMeia.Size = new Size(160, 57);
             btnMeia.TabIndex = 10;
@@ -352,10 +379,11 @@
             btnInteiro.BackColor = Color.White;
             btnInteiro.Cursor = Cursors.Hand;
             btnInteiro.FlatAppearance.BorderSize = 0;
+            btnInteiro.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
             btnInteiro.FlatStyle = FlatStyle.Flat;
-            btnInteiro.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnInteiro.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnInteiro.ForeColor = Color.Black;
-            btnInteiro.Location = new Point(914, 571);
+            btnInteiro.Location = new Point(930, 590);
             btnInteiro.Name = "btnInteiro";
             btnInteiro.Size = new Size(160, 57);
             btnInteiro.TabIndex = 11;
@@ -369,10 +397,11 @@
             btnIsento.BackColor = Color.White;
             btnIsento.Cursor = Cursors.Hand;
             btnIsento.FlatAppearance.BorderSize = 0;
+            btnIsento.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
             btnIsento.FlatStyle = FlatStyle.Flat;
-            btnIsento.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            btnIsento.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnIsento.ForeColor = Color.Black;
-            btnIsento.Location = new Point(914, 697);
+            btnIsento.Location = new Point(930, 716);
             btnIsento.Name = "btnIsento";
             btnIsento.Size = new Size(160, 57);
             btnIsento.TabIndex = 12;
@@ -385,7 +414,9 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(1221, 840);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Center;
+            ClientSize = new Size(1237, 879);
             Controls.Add(btnIsento);
             Controls.Add(btnInteiro);
             Controls.Add(btnMeia);
@@ -393,6 +424,7 @@
             Controls.Add(btnRelatorios);
             Controls.Add(gbEditar);
             Controls.Add(gbVisitante);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Adm";
             Text = "Cadastro";
             Load += Adm_Load;

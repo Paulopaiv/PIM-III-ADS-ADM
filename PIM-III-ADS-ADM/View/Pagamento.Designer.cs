@@ -41,12 +41,11 @@
             // 
             // BtnCredito
             // 
-            BtnCredito.BackColor = Color.Black;
-            BtnCredito.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            BtnCredito.ForeColor = SystemColors.ControlLightLight;
+            BtnCredito.BackColor = Color.White;
+            BtnCredito.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnCredito.ForeColor = Color.Black;
+            BtnCredito.Image = (Image)resources.GetObject("BtnCredito.Image");
             BtnCredito.ImageAlign = ContentAlignment.MiddleLeft;
-            BtnCredito.ImageIndex = 0;
-            BtnCredito.ImageList = imageList1;
             BtnCredito.Location = new Point(99, 18);
             BtnCredito.Name = "BtnCredito";
             BtnCredito.Size = new Size(160, 57);
@@ -66,9 +65,9 @@
             // 
             // BtnCancelar
             // 
-            BtnCancelar.BackColor = Color.Black;
-            BtnCancelar.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            BtnCancelar.ForeColor = SystemColors.ControlLightLight;
+            BtnCancelar.BackColor = Color.White;
+            BtnCancelar.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnCancelar.ForeColor = Color.Black;
             BtnCancelar.Location = new Point(99, 247);
             BtnCancelar.Name = "BtnCancelar";
             BtnCancelar.Size = new Size(160, 57);
@@ -79,12 +78,11 @@
             // 
             // BtnPix
             // 
-            BtnPix.BackColor = Color.Black;
-            BtnPix.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            BtnPix.ForeColor = SystemColors.ControlLightLight;
+            BtnPix.BackColor = Color.White;
+            BtnPix.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnPix.ForeColor = Color.Black;
+            BtnPix.Image = (Image)resources.GetObject("BtnPix.Image");
             BtnPix.ImageAlign = ContentAlignment.MiddleLeft;
-            BtnPix.ImageKey = "images-removebg-preview.png";
-            BtnPix.ImageList = imageList1;
             BtnPix.Location = new Point(99, 150);
             BtnPix.Name = "BtnPix";
             BtnPix.Size = new Size(160, 57);
@@ -95,12 +93,11 @@
             // 
             // BtnDebito
             // 
-            BtnDebito.BackColor = Color.Black;
-            BtnDebito.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            BtnDebito.ForeColor = SystemColors.ControlLightLight;
+            BtnDebito.BackColor = Color.White;
+            BtnDebito.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            BtnDebito.ForeColor = Color.Black;
+            BtnDebito.Image = (Image)resources.GetObject("BtnDebito.Image");
             BtnDebito.ImageAlign = ContentAlignment.MiddleLeft;
-            BtnDebito.ImageIndex = 0;
-            BtnDebito.ImageList = imageList1;
             BtnDebito.Location = new Point(99, 84);
             BtnDebito.Name = "BtnDebito";
             BtnDebito.Size = new Size(160, 57);
@@ -111,7 +108,8 @@
             // 
             // ptbQrCode
             // 
-            ptbQrCode.Image = (Image)resources.GetObject("ptbQrCode.Image");
+            ptbQrCode.BackColor = Color.Transparent;
+            ptbQrCode.BackgroundImage = (Image)resources.GetObject("ptbQrCode.BackgroundImage");
             ptbQrCode.Location = new Point(12, 347);
             ptbQrCode.Name = "ptbQrCode";
             ptbQrCode.Size = new Size(334, 193);

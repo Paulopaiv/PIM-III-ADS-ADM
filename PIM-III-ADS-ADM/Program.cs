@@ -1,5 +1,4 @@
 
-
 using PIM_III_ADS_ADM.Controller;
 using PIM_III_ADS_ADM.View;
 
@@ -17,8 +16,6 @@ namespace PIM_III_ADS_ADM
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Adm(new PessoaController()));           
-         
-
         }
     }
 }

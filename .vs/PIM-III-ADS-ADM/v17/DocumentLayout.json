@@ -1,12 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nicolas\\Documents\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\nicolas\\documents\\pim\\pim-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,27 +29,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Adm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\Documents\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\View\\Adm.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\Documents\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs [Design]",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Adm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T15:33:26.422Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

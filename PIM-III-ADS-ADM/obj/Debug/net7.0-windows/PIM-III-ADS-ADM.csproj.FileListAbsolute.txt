@@ -25,3 +25,31 @@ D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\
 D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.View.Vendas.resources
 D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.sourcelink.json
 D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\QRCoder.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\PIM-III-ADS-ADM.exe
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\PIM-III-ADS-ADM.deps.json
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\PIM-III-ADS-ADM.runtimeconfig.json
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\PIM-III-ADS-ADM.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\PIM-III-ADS-ADM.pdb
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\Dapper.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\Newtonsoft.Json.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\Npgsql.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\bin\Debug\net7.0-windows\QRCoder.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.csproj.AssemblyReference.cache
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.Properties.Resources.resources
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.View.Adm.resources
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.View.Pagamento.resources
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.View.Vendas.resources
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.csproj.GenerateResource.cache
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.AssemblyInfoInputs.cache
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.AssemblyInfo.cs
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.sourcelink.json
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-.5F8938C0.Up2Date
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\refint\PIM-III-ADS-ADM.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.pdb
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.genruntimeconfig.cache
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\ref\PIM-III-ADS-ADM.dll

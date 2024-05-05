@@ -318,7 +318,7 @@
             btnRelatorios.FlatStyle = FlatStyle.Flat;
             btnRelatorios.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnRelatorios.ForeColor = Color.Black;
-            btnRelatorios.Location = new Point(866, 810);
+            btnRelatorios.Location = new Point(864, 789);
             btnRelatorios.Name = "btnRelatorios";
             btnRelatorios.Size = new Size(288, 57);
             btnRelatorios.TabIndex = 0;
@@ -365,7 +365,7 @@
             btnMeia.FlatStyle = FlatStyle.Flat;
             btnMeia.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnMeia.ForeColor = Color.Black;
-            btnMeia.Location = new Point(930, 653);
+            btnMeia.Location = new Point(928, 632);
             btnMeia.Name = "btnMeia";
             btnMeia.Size = new Size(160, 57);
             btnMeia.TabIndex = 10;
@@ -383,7 +383,7 @@
             btnInteiro.FlatStyle = FlatStyle.Flat;
             btnInteiro.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnInteiro.ForeColor = Color.Black;
-            btnInteiro.Location = new Point(930, 590);
+            btnInteiro.Location = new Point(928, 569);
             btnInteiro.Name = "btnInteiro";
             btnInteiro.Size = new Size(160, 57);
             btnInteiro.TabIndex = 11;
@@ -401,7 +401,7 @@
             btnIsento.FlatStyle = FlatStyle.Flat;
             btnIsento.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             btnIsento.ForeColor = Color.Black;
-            btnIsento.Location = new Point(930, 716);
+            btnIsento.Location = new Point(928, 695);
             btnIsento.Name = "btnIsento";
             btnIsento.Size = new Size(160, 57);
             btnIsento.TabIndex = 12;

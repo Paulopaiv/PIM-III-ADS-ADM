@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\",
+  "WorkspaceRootPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\nicolas\\onedrive\\documentos\\projetos\\pim\\pim-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\service\\vendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\kenzo\\onedrive\\documentos\\pim\\adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\utils\\enviaemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\utils\\enviaemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\kenzo\\onedrive\\documentos\\pim\\adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\service\\vendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\service\\vendasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\nicolas\\onedrive\\documentos\\projetos\\pim\\pim-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\nicolas\\onedrive\\documentos\\projetos\\pim\\pim-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\pim-iii-ads-adm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\pim-iii-ads-adm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\pim-iii-ads-adm\\view\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\pim-iii-ads-adm\\view\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\pim-iii-ads-adm\\view\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\pim-iii-ads-adm\\view\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\vendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,21 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VendasService.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\VendasService.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Service\\VendasService.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\VendasService.cs",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\Service\\VendasService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:35:49.468Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -75,24 +66,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Adm.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\View\\Adm.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Adm.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAIwGAAAAAjAAAA",
+              "DocumentIndex": 0,
+              "Title": "EnviaEmail.cs",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Utils\\EnviaEmail.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Utils\\EnviaEmail.cs",
+              "ToolTip": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Utils\\EnviaEmail.cs",
+              "RelativeToolTip": "PIM-III-ADS-ADM\\Utils\\EnviaEmail.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwDAAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:32:58.734Z",
+              "WhenOpened": "2024-05-05T14:57:34.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "VendasService.cs",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\VendasService.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Service\\VendasService.cs",
+              "ToolTip": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\VendasService.cs",
+              "RelativeToolTip": "PIM-III-ADS-ADM\\Service\\VendasService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:35:49.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Adm.cs",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
+              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\View\\Adm.cs",
+              "ToolTip": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
+              "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Adm.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAIwGAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T14:32:58.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Vendas.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Vendas.cs",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Vendas.cs",
               "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\View\\Vendas.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Vendas.cs",
+              "ToolTip": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Vendas.cs",
               "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Vendas.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -100,11 +116,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Program.cs",
               "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Program.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Program.cs",
+              "ToolTip": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Program.cs",
               "RelativeToolTip": "PIM-III-ADS-ADM\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAvwBEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -112,26 +128,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Vendas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Vendas.cs",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Vendas.cs",
               "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\View\\Vendas.cs",
               "ToolTip": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Vendas.cs [Design]",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Vendas.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Vendas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-04T15:38:45.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Adm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\adm\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
               "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\View\\Adm.cs",
               "ToolTip": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs [Design]",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Adm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-04T15:35:51.381Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-04T15:35:51.381Z"
             }
           ]
         }

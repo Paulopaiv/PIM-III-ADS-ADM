@@ -22,12 +22,35 @@ namespace PIM_III_ADS_ADM.Utils
 
                 message.From = new MailAddress("pim3ads@gmail.com");
 
-                message.Body = message.Body = $"Olá, {nome}!\n\nObrigado por comprar seu ingresso para o museu!" +
-                                              $"\n\nSeu código de visitante é: {codigo}" +
-                                              $"\n\nForma de pagamento: {formaDePagamento}" +
-                                              $"\n\nValor do ingresso: R${valorIngresso}" +
-                                              $"\n\nTenha uma ótima visita!";
-
+                message.Body = message.Body = "<html>" +
+               "<head>" +
+               "<style>" +
+               "body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #000048; color: #fff; }" +
+               ".container { max-width: 600px; margin: 0 auto; padding: 20px; background-color: #f8f8f8; border-radius: 10px; }" +
+               ".header { background-color: #22128e; color: #fff; text-align: center; padding: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; }" +
+               ".content { padding: 20px; }" +
+               ".footer { background-color: #22128e; color: #fff; text-align: center; padding: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; }" +
+               ".content p { font-size: 18px; }" +
+               "</style>" +
+               "</head>" +
+               "<body>" +
+               "<div class='container'>" +
+               "<div class='header'>" +
+               "<h1>Experiência Única!</h1>" +
+               "</div>" +
+               "<div class='content'>" +
+               $"<p>Olá, {nome}!</p>" +
+               "<p>Embarque em uma viagem incrível pela história da conquista da Lua no Museu da Viagem do Homem à Lua!</p>" +
+               $"<p>Seu código de visitante é: {codigo}</p>" +
+               $"<p>Forma de pagamento: {formaDePagamento}</p>" +
+               $"<p>Valor do ingresso: R${valorIngresso}</p>" +
+               "</div>" +
+               "<div class='footer'>" +
+               "<h2>Não perca esta oportunidade!</h2>" +
+               "</div>" +
+               "</div>" +
+               "</body>" +
+               "</html>";
                 message.Subject = "Seu Código de Visitante";
                 message.IsBodyHtml = true;
                 message.Priority = MailPriority.Normal;

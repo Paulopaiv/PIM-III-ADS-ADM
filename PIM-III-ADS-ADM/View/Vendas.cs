@@ -27,6 +27,7 @@ namespace PIM_III_ADS_ADM.View
 
         }
 
+
         private void btnInteiro_Click(object sender, EventArgs e)
         {
             AtualizarTipoIngresso(true, false, false);

@@ -11,7 +11,7 @@ namespace PIM_III_ADS_ADM.Service
 
         public Dbconexao()
         {
-            connectionString = "Server=localhost;Port=5432;Database=DB_Museu;User Id=postgres;Password=4852;";
+            connectionString = "Server=localhost;Port=5432;Database=postgres;User Id=postgres;Password=4852;";
         }
 
         public IDbConnection GetConnection()

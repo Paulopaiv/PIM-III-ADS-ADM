@@ -85,7 +85,7 @@
           }
         }
       },
-      "Npgsql/8.0.2": {
+      "Npgsql/8.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
@@ -330,10 +330,10 @@
         "packageIcon.png"
       ]
     },
-    "Npgsql/8.0.2": {
-      "sha512": "MuJzLoWCaQhQAR3oh66YR0Ir6mxuezncGX3f8wxvAc21g0+9HICktJQlqMoODhxztZKXE5k9GxRxqUAN+vPb4g==",
+    "Npgsql/8.0.3": {
+      "sha512": "6WEmzsQJCZAlUG1pThKg/RmeF6V+I0DmBBBE/8YzpRtEzhyZzKcK7ulMANDm5CkxrALBEC8H+5plxHWtIL7xnA==",
       "type": "package",
-      "path": "npgsql/8.0.2",
+      "path": "npgsql/8.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -348,7 +348,7 @@
         "lib/netstandard2.0/Npgsql.xml",
         "lib/netstandard2.1/Npgsql.dll",
         "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.8.0.2.nupkg.sha512",
+        "npgsql.8.0.3.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
@@ -418,24 +418,24 @@
     "net7.0-windows7.0": [
       "Dapper >= 2.1.35",
       "Newtonsoft.Json >= 13.0.3",
-      "Npgsql >= 8.0.2",
+      "Npgsql >= 8.0.3",
       "QRCoder >= 1.5.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nicolas\\.nuget\\packages\\": {}
+    "C:\\Users\\kenzo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj",
+      "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj",
       "projectName": "PIM-III-ADS-ADM",
-      "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj",
-      "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\obj\\",
+      "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj",
+      "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -476,7 +476,7 @@
           },
           "Npgsql": {
             "target": "Package",
-            "version": "[8.0.2, )"
+            "version": "[8.0.3, )"
           },
           "QRCoder": {
             "target": "Package",

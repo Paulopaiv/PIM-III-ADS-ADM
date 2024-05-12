@@ -1,6 +1,8 @@
 ﻿
 using PIM_III_ADS_ADM.Controller;
+
 using PIM_III_ADS_ADM.Model;
+
 
 
 namespace PIM_III_ADS_ADM.View
@@ -27,7 +29,6 @@ namespace PIM_III_ADS_ADM.View
 
         }
 
-
         private void btnInteiro_Click(object sender, EventArgs e)
         {
             AtualizarTipoIngresso(true, false, false);
@@ -52,7 +53,7 @@ namespace PIM_III_ADS_ADM.View
                 // Se a idade não for maior que 70, mostra uma mensagem de erro
                 MessageBox.Show("A opção 'Isento' está disponível apenas para pessoas com mais de 70 anos.");
             }
-            this.Close();
+            //this.Close();
         }
 
         private void AtualizarTipoIngresso(bool inteiro, bool meia, bool isento)
@@ -60,8 +61,14 @@ namespace PIM_III_ADS_ADM.View
             vendasController.Inteiro = inteiro;
             vendasController.Meia = meia;
             vendasController.Isento = isento;
+            pagamento.Show();
 
-            pagamento.ShowDialog();
+
+        }
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            
             this.Close();
         }
     }

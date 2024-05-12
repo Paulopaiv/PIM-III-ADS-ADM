@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PIM_III_ADS_ADM
-build_property.ProjectDir = C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\
+build_property.ProjectDir = C:\Users\kenzo\OneDrive\Documentos\PIM\PIM-ADM\PIM-III-ADS-ADM\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

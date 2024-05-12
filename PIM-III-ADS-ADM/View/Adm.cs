@@ -94,7 +94,7 @@ namespace PIM_III_ADS_ADM.View
         private void BtnRelatorios_Click(object sender, EventArgs e)
         {
             string powerBiDesktopPath = @"C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe";
-            string reportPath = @"C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\Repositórios\PIM-III-ADS.pbix";
+            string reportPath = @"C:\Users\kenzo\OneDrive\Documentos\PIM\RelatorioPowerBI\PIM-III-ADS.pbix";
 
             try
             {

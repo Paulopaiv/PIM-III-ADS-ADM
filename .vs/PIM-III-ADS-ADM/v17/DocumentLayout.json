@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\",
+  "WorkspaceRootPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-ADM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\nicolas\\onedrive\\documentos\\projetos\\pim\\pim-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\service\\dbconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\service\\dbconexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\nicolas\\onedrive\\documentos\\projetos\\pim\\pim-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\utils\\enviaemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\utils\\enviaemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\nicolas\\onedrive\\documentos\\projetos\\pim\\pim-adm\\pim-iii-ads-adm\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|c:\\users\\kenzo\\onedrive\\documentos\\pim\\pim-adm\\pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82DA89ED-4D76-4485-A4CF-FFEF820BAB81}|PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj|solutionrelative:pim-iii-ads-adm\\view\\adm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,41 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dbconexao.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\Dbconexao.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Service\\Dbconexao.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Service\\Dbconexao.cs",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\Service\\Dbconexao.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T18:14:24.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnviaEmail.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Utils\\EnviaEmail.cs",
-              "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\Utils\\EnviaEmail.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\Utils\\EnviaEmail.cs",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\Utils\\EnviaEmail.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T18:13:02.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Adm.cs",
-              "DocumentMoniker": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
+              "Title": "Adm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
               "RelativeDocumentMoniker": "PIM-III-ADS-ADM\\View\\Adm.cs",
-              "ToolTip": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs",
-              "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Adm.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwGAAAABgAAAA",
+              "ToolTip": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\View\\Adm.cs [Projeto]",
+              "RelativeToolTip": "PIM-III-ADS-ADM\\View\\Adm.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T15:36:07.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T05:02:12.746Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

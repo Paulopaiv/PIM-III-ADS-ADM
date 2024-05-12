@@ -130,6 +130,7 @@
             Controls.Add(BtnDebito);
             Controls.Add(BtnCredito);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Pagamento";
             Text = "Pagamento";
             ((System.ComponentModel.ISupportInitialize)ptbQrCode).EndInit();

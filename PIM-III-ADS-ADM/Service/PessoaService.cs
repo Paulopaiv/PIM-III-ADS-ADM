@@ -32,7 +32,7 @@ namespace PIM_III_ADS_ADM.Service
                 pessoa.Codigo = pessoa.GerarCodigo(pessoa.Nome);
             }
             // Use a conexão já aberta
-            conexao.Execute(@"INSERT INTO visitante (NOME, IDADE, EMAIL, CEP, DATA, Codigo) 
+            conexao.Execute(@"INSERT INTO tbl_visitante (NOME, IDADE, EMAIL, CEP, DATA, Codigo) 
                 VALUES (@Nome, @IdadeDb, @Email, @Cep, @Data, @Codigo)",
                 new
                 {
@@ -51,7 +51,7 @@ namespace PIM_III_ADS_ADM.Service
         public void Atualizar(PessoaController pessoa)
         {
             // Use a conexão já aberta
-            conexao.Execute(@"UPDATE visitante SET nome = @Nome, idade = @Idade, email = @Email, cep = @Cep, data = @Data WHERE codigo = @Codigo",
+            conexao.Execute(@"UPDATE tbl_visitante SET nome = @Nome, idade = @Idade, email = @Email, cep = @Cep, data = @Data WHERE codigo = @Codigo",
                 new
                 {
                     pessoa.Nome,
@@ -66,26 +66,26 @@ namespace PIM_III_ADS_ADM.Service
         public void Deletar(PessoaController pessoa)
         {
             // Use a conexão já aberta
-            conexao.Execute("DELETE FROM visitante WHERE Codigo  = @Codigo", new { pessoa.Codigo });
+            conexao.Execute("DELETE FROM tbl_visitante WHERE Codigo  = @Codigo", new { pessoa.Codigo });
         }
 
         public IEnumerable<PessoaController> BuscarTodasPessoas()
         {
             // Use a conexão já aberta
-            return conexao.Query<PessoaController>("SELECT codigo as Codigo, nome as Nome, idade as Idade, email as Email, cep as Cep, data as Data FROM visitante");
+            return conexao.Query<PessoaController>("SELECT codigo as Codigo, nome as Nome, idade as Idade, email as Email, cep as Cep, data as Data FROM tbl_visitante");
         }
 
         public PessoaController BuscarPessoaPorEmail(string email)
         {
             // Use a conexão já aberta
-            return conexao.QueryFirstOrDefault<PessoaController>("SELECT * FROM visitante WHERE email = @Email", new { Email = email });
+            return conexao.QueryFirstOrDefault<PessoaController>("SELECT * FROM tbl_visitante WHERE email = @Email", new { Email = email });
         }
 
         public PessoaController BuscarPessoaPorNomeEEmail(PessoaController pessoa)
         {
             // Use a conexão já aberta
             var resultado = conexao.QueryFirstOrDefault(
-                 "SELECT nome, idade, email, cep, codigo FROM public.visitante WHERE nome = @Nome AND email = @Email",
+                 "SELECT nome, idade, email, cep, codigo FROM public.tbl_visitante WHERE nome = @Nome AND email = @Email",
                 new { pessoa.Nome, pessoa.Email });
 
             if (resultado != null)

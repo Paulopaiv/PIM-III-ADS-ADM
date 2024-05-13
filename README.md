@@ -22,9 +22,15 @@ Para realizar esse projeto, foi necessário a criação de 4 programas que iriam
 - Linguagem: C#
 - Framework: Windows Forms
 
-## Layout 🎨
+## Tabela de Dados dos Visitantes 📊
 
-O layout do programa segue os princípios de Design de Interface do Usuário para proporcionar uma experiência intuitiva aos administradores do museu.
+O programa de administração do Museu da Primeira Viagem à Lua possui uma tabela que exibe os dados dos visitantes, permitindo aos administradores visualizarem informações relevantes sobre as visitas ao museu. Além disso, o programa conta com um botão "Relatório" que oferece acesso direto ao Power BI, onde é possível visualizar um dashboard completo com análises detalhadas dos dados.
+
+### Botão "Relatório" e Dashboard no Power BI
+
+Ao clicar no botão "Relatório", o programa redireciona os usuários para o Power BI, uma ferramenta de análise de dados poderosa. Lá, os administradores podem acessar um dashboard interativo com gráficos, tabelas e métricas sobre os dados dos visitantes, permitindo uma análise mais aprofundada e auxiliando na tomada de decisões estratégicas para o museu.
+
+Este recurso oferece uma visão abrangente e dinâmica dos dados dos visitantes, possibilitando uma melhor compreensão do perfil e comportamento dos visitantes, bem como o desempenho geral do museu.
 
 
 ## ✒️ *Autores*

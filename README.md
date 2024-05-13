@@ -30,6 +30,11 @@ O programa de administração do Museu da Primeira Viagem à Lua possui uma tabe
 
 Ao clicar no botão "Relatório", o programa redireciona os usuários para o Power BI, uma ferramenta de análise de dados poderosa. Lá, os administradores podem acessar um dashboard interativo com gráficos, tabelas e métricas sobre os dados dos visitantes, permitindo uma análise mais aprofundada e auxiliando na tomada de decisões estratégicas para o museu.
 
+<p align="right" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="ADM menu" title="ADM" src="./Assets/ADM-main.svg" width="400px">
+  <img alt="relatorio" title="Relatorio" src="./Assets/PowerBI.svg" width="400px">
+</p>
+
 Este recurso oferece uma visão abrangente e dinâmica dos dados dos visitantes, possibilitando uma melhor compreensão do perfil e comportamento dos visitantes, bem como o desempenho geral do museu.
 
 

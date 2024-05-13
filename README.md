@@ -1,6 +1,14 @@
-# Programa de Administração do Museu da Primeira Viagem à Lua 🚀
+# Programa de Administração do Museu da Primeira Viagem à Lua 
 
 Este programa é responsável por administrar o conteúdo e as operações do Museu da Primeira Viagem à Lua. Através deste programa, os administradores podem gerenciar as obras em exposição, visualizar dados da pesquisa de avaliação e realizar outras tarefas relacionadas à administração do museu.
+
+Para realizar esse projeto, foi necessário a criação de 4 programas que iriam fazer a interação da experiência com o usuário com o museu. Segue abaixo o repositório dos outros 3 programas:
+
+-[Programa Principal 🏛️](https://github.com/Paulopaiv/PIM-III-QUESTIONARIO)
+
+-[Programa de Avaliação 📊 ](https://github.com/Paulopaiv/PIM-III-ADS-VISITANTE) 
+
+-[Programa de Vendas 🛒 ](https://github.com/Paulopaiv/PIM-III-ADS-VENDAS) 
 
 ## Funcionalidades Principais ⚙️
 

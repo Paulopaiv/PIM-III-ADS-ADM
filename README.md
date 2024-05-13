@@ -48,6 +48,5 @@ Caso tenha alguma dúvida, consulte a documentação do GitHub sobre [como criar
 
 ## ⏭️ Próximos passos
 
-- Agendamento de visitas: Integrar um sistema de agendamento de visitas ao museu;
-- Gamificação: Criar um sistema de gamificação para incentivar a participação dos visitantes na pesquisa;
-- Notificações: Implementar um sistema de notificações para eventos e atualizações do museu.
+ntegração com Mídias Sociais: Integrar o programa com as redes sociais do museu para facilitar o compartilhamento de informações e eventos;
+Acesso Remoto: Desenvolver uma versão web do programa para permitir o acesso remoto e a administração do museu de qualquer lugar.

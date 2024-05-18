@@ -109,3 +109,10 @@ C:\Users\kenzo\OneDrive\Documentos\PIM\PIM-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-
 C:\Users\kenzo\OneDrive\Documentos\PIM\PIM-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.pdb
 C:\Users\kenzo\OneDrive\Documentos\PIM\PIM-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.genruntimeconfig.cache
 C:\Users\kenzo\OneDrive\Documentos\PIM\PIM-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\ref\PIM-III-ADS-ADM.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.csproj.AssemblyReference.cache
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.Properties.Resources.resources
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.View.Vendas.resources
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.csproj.GenerateResource.cache
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\refint\PIM-III-ADS-ADM.dll
+C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.pdb

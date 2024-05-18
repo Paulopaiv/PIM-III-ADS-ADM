@@ -423,19 +423,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kenzo\\.nuget\\packages\\": {}
+    "C:\\Users\\Nicolas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj",
+      "projectUniqueName": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj",
       "projectName": "PIM-III-ADS-ADM",
-      "projectPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj",
-      "packagesPath": "C:\\Users\\kenzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kenzo\\OneDrive\\Documentos\\PIM\\PIM-ADM\\PIM-III-ADS-ADM\\obj\\",
+      "projectPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM ADM\\PIM-III-ADS-ADM\\PIM-III-ADS-ADM.csproj",
+      "packagesPath": "C:\\Users\\Nicolas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nicolas\\OneDrive\\Documentos\\Projetos\\PIM\\PIM ADM\\PIM-III-ADS-ADM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -502,7 +502,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     }
   }

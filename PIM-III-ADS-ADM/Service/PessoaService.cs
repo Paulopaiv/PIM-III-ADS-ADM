@@ -65,9 +65,46 @@ namespace PIM_III_ADS_ADM.Service
 
         public void Deletar(PessoaController pessoa)
         {
-            // Use a conexão já aberta
-            conexao.Execute("DELETE FROM tbl_visitante WHERE Codigo  = @Codigo", new { pessoa.Codigo });
+            // Use a conexão já aberta para iniciar uma transação
+            using (var transaction = conexao.BeginTransaction())
+            {
+                try
+                {
+                    // Primeiro, exclua os registros dependentes na tabela tbl_vendas
+                    conexao.Execute(
+                        "DELETE FROM tbl_vendas WHERE codigo = @Codigo",
+                        new { pessoa.Codigo },
+                        transaction: transaction
+                    );
+
+                    // Em seguida, exclua os registros dependentes na tabela tbl_votos
+                    conexao.Execute(
+                        "DELETE FROM tbl_votos WHERE codigo = @Codigo",
+                        new { pessoa.Codigo },
+                        transaction: transaction
+                    );
+
+                    // Finalmente, exclua o registro na tabela tbl_visitante
+                    conexao.Execute(
+                        "DELETE FROM tbl_visitante WHERE Codigo = @Codigo",
+                        new { pessoa.Codigo },
+                        transaction: transaction
+                    );
+
+                    // Se tudo estiver bem, commit a transação
+                    transaction.Commit();
+                }
+                catch (Exception ex)
+                {
+                    // Em caso de erro, rollback a transação
+                    transaction.Rollback();
+                    // Re-lançar a exceção para ser tratada pelo chamador
+                    throw;
+                }
+            }
         }
+
+
 
         public IEnumerable<PessoaController> BuscarTodasPessoas()
         {

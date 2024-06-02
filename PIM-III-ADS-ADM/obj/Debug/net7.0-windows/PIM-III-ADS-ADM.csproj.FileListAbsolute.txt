@@ -116,3 +116,4 @@ C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\De
 C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.dll
 C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\refint\PIM-III-ADS-ADM.dll
 C:\Users\Nicolas\OneDrive\Documentos\Projetos\PIM\PIM ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM-III-ADS-ADM.pdb
+D:\Paulo & Rebeca\GIT-HUB-PAULO\PIM-III-ADS-ADM\PIM-III-ADS-ADM\PIM-III-ADS-ADM\obj\Debug\net7.0-windows\PIM_III_ADS_ADM.Properties.Resources.resources

@@ -367,10 +367,6 @@
             dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
             dgvPessoa.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            dgvPessoa.RowTemplate.DefaultCellStyle.BackColor = Color.Empty;
-            dgvPessoa.RowTemplate.DefaultCellStyle.ForeColor = Color.Empty;
-            dgvPessoa.RowTemplate.DefaultCellStyle.SelectionBackColor = Color.Empty;
-            dgvPessoa.RowTemplate.DefaultCellStyle.SelectionForeColor = Color.Empty;
             dgvPessoa.RowTemplate.Height = 25;
             dgvPessoa.Size = new Size(777, 855);
             dgvPessoa.TabIndex = 9;
@@ -444,7 +440,7 @@
             Controls.Add(btnRelatorios);
             Controls.Add(gbEditar);
             Controls.Add(gbVisitante);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Adm";
             Text = "Cadastro";
